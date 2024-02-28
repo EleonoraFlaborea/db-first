@@ -25,7 +25,7 @@ cambio | CHAR(1) | NOTNULL DEFAULT(0)
 garanzia | CHAR (7) | NOTNULL
 immatricolazione | DATE | NULL
 potenza | VARCHAR(14) | NULL
-sedili | TYNINT(1) | NOTNULL DEFAULT(0)
+sedili | TINYINT(1) | NOTNULL DEFAULT(0)
 colore | VARCHAR(10) | NOTNULL
 cilindrata | VARCHAR(9) | NOTNULL
 paese origine | CHAR(3) | NULL DEFAULT(ITA)
